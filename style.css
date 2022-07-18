@@ -1,0 +1,61 @@
+.header {
+    min-height: 210px;
+    background-color: rgba(182, 131, 33, 0.4);
+}
+
+.galeria, .obra{
+    height: 0;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    padding-top: 66.64%;
+}
+
+.galeria {
+    background-image: url('images/bg.jpg');
+}
+
+.obra {
+    background-image: url('images/bg2.jpg');
+}
+
+.img_view {
+    position: absolute;
+    left: 27.5%;
+    top: 30%;
+    max-height: 40%;
+}
+
+.img_btn {
+    cursor: pointer;
+}
+
+.img_autor{
+    border-radius: 20px;
+    border: 2px solid #C58358;
+}
+
+.card-body{
+    text-align: justify;
+    height: 250px;
+}
+
+.galeria .obra4 {
+    position: absolute;
+    top: 49%;
+    left: 7%;
+    width: 18%;
+}
+
+.botoes{
+    position: absolute;
+    width: 280px;
+    top: 30%;
+    right: 26%
+}
+
+button {
+    border: 2px solid #000000 !important;
+    border-radius: 4px !important;
+}
