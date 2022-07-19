@@ -43,9 +43,16 @@
 
 .galeria .obra4 {
     position: absolute;
-    top: 49%;
-    left: 7%;
+    top: 50.5%;
+    left: 8%;
     width: 18%;
+}
+
+.galeria .obra2 {
+    position: absolute;
+    top: 58.5%;
+    left: 59%;
+    width: 10%;
 }
 
 .botoes{
@@ -55,7 +62,18 @@
     right: 26%
 }
 
-button {
+.btn_collapse {
     border: 2px solid #000000 !important;
     border-radius: 4px !important;
+}
+
+.btn_voltar{
+    background-color: #C58358 !important;
+    border: 2px solid #654028 !important;
+    border-radius: 12px !important;
+}
+
+a{
+    color: black !important;
+    text-decoration: none !important;
 }
