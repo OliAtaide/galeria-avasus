@@ -4,7 +4,39 @@ let obras = [
         autor_texto: 'Bevenuto Cellini nasceu em 1500 e foi um dos maiores escultores renascentistas, também reconhecido por seu talento como ourives, escritor e músico. Era um gênio nas artes, mas tinha um comportamento controverso, se envolvendo em vários escândalos sexuais e homicídios, tendo relatado os fatos em sua autobiografia, escrita por ele mesmo (CELLINI, 1902). Aos 29 anos de idade, ele contraiu sífilis e, ao entrar na segunda fase da doença, foi orientado a fazer uso de mercúrio, uma das opções de tratamento na época. Por temer os efeitos colaterais, ele recusou a medicação, dando preferência a aplicação de sanguessugas e loções. Ao evoluir para a fase terciária da sífilis, surgiu um rumor de que Celline estaria em estado terminal. Nesse período, envolveu-se em uma compra desvantajosa, e as pessoas com as quais ele negociou, tentaram envenená-lo, adicionando mercúrio a sua alimentação, porém, a dose administrada não foi suficiente para matá-lo, mas sim para curá-lo da sífilis (WOLF, 2005).',
         obra_titulo: 'A sífilis, Benvenuto Cellini e “Perseus  com a Cabeça de Medusa”',
         obra_foto: 'images/obra1.png',
-        obra_texto: 'Em resposta a tentativa de assassinato contra a sua vida e a experiência vivenciada durante o período de adoecimento pela sífilis, Cellini esculpiu em bronze uma obra-prima, intitulada “Perseus com a Cabeça de Medusa”. Essa escultura além de representar a vitória de Celline sobre os seus inimigos ou sobre a enfermidade que o atormentou, também expressa a sua genialidade, por meio da capacidade representativa, da beleza estética exibida em cada detalhe e do poder de transmissão de seu próprio sentimento interior enquanto criador. Essa obra resistiu aos séculos e pode ser encontrada na Piazza della Signorina, em Florença, na Itália (WOLF, 2005).'
+        obra_texto: 'Em resposta a tentativa de assassinato contra a sua vida e a experiência vivenciada durante o período de adoecimento pela sífilis, Cellini esculpiu em bronze uma obra-prima, intitulada “Perseus com a Cabeça de Medusa”. Essa escultura além de representar a vitória de Celline sobre os seus inimigos ou sobre a enfermidade que o atormentou, também expressa a sua genialidade, por meio da capacidade representativa, da beleza estética exibida em cada detalhe e do poder de transmissão de seu próprio sentimento interior enquanto criador. Essa obra resistiu aos séculos e pode ser encontrada na Piazza della Signorina, em Florença, na Itália (WOLF, 2005).',
+        descricoes: [
+            {
+                titulo: 'Rosto',
+                texto: 'Se observarmos, Perseus está olhando para baixo, como que para interagir com os seus espectadores, do alto de seu pedestal, também esculpido por ele.',
+                btn_left: '32.5%', btn_top: '32.5%',
+                ctn_left: '14%', ctn_top: '8%'
+            },
+            {
+                titulo: 'Cabeça',
+                texto: 'A semelhança nos traços faciais de Perseus e Medusa remetem ao fato de que fitar a medusa é temeroso, porém necessário, no sentido de enfrentar os próprios temores.',
+                btn_left: '37.5%', btn_top: '30%',
+                ctn_left: '27.5%', ctn_top: '9%'
+            },
+            {
+                titulo: 'Torso',
+                texto: 'O torso de Perseus é ornado com uma faixa com o nome “Bevenuto Cellini”, como se ele próprio se apresentasse como sendo esse Perseus vitorioso.',
+                btn_left: '31.5%', btn_top: '42%',
+                ctn_left: '8%', ctn_top: '33%'
+            },
+            {
+                titulo: 'Pé',
+                texto: 'Sob os seus pés, derrotada, surge o corpo desfalecido da medusa, que ele pisa, como que querendo expressar a sua vitória sobre a serpente da sífilis, o mal do século.',
+                btn_left: '33%', btn_top: '58%',
+                ctn_left: '10%', ctn_top: '49%'
+            },
+            {
+                titulo: 'Pedestal',
+                texto: 'No pedestal, Cellini esculpiu quatro deuses gregos: Zeus, Afrodite, Hermes, Palas e Athena. Mais uma simbologia é exibida na obra, pois o deus Hermes e a deusa Afrodite, são também conhecidos como Vênus e Mercúrio. Eles se encontram em justaposição no pedestal, como para simbolizar a causa e a cura da sífilis. Vênus é a deusa do amor e da beleza, e que deriva do latim venereus (relativo à Vênus), de onde deriva o termo doença venérea, que se atribui a qualquer infecção adquirida por relação sexual. Mercúrio, é o mensageiro dos deuses, e mercúrio era também, o medicamento utilizado para o tratamento da sífilis e que trouxe a cura para Cellini (WOLF, 2005).',
+                btn_left: '30%', btn_top: '85%',
+                ctn_left: '7%', ctn_top: '50%'
+            }
+        ]
     },
     {
         autor_foto: 'images/autor2.jpg',
@@ -42,16 +74,15 @@ const header_titulo = `<strong>GALERIA DE ARTE INTERATIVA</strong>
 
 // $('.obra').parent().hide();
 
-$('.descricao').hide();
 
-$('.descricao_botao').click(function () {
+$(document).on('click', '.descricao_botao', function () {
+    console.log('ok');
     $('.descricao').fadeOut(500);
     var target = $(this).data('target')
-    console.log($(target));
     $(target).fadeIn(500);
 })
 
-$('.btn-close').click(function () {
+$(document).on('click', '.btn-close', function () {
     $('.descricao').fadeOut(500);
 })
 
@@ -63,7 +94,6 @@ $('.img_btn').click(function () {
     }
 
     var obra = obras[i];
-    console.log($('#autorCollapse .card-body'));
     $('.img_view').attr('src', obra.obra_foto);
     $('#autorCollapse .card-body').html(
         "<div class='d-flex justify-content-center mb-3'><img class='img_autor img-fluid w-50' src='" + obra.autor_foto + "'></div><p>" +
@@ -75,6 +105,37 @@ $('.img_btn').click(function () {
     $('.galeria').parent().hide();
     $('.obra').parent().show();
     $('.header h2').html(obra.obra_titulo);
+
+    let descricoes = obra.descricoes;
+
+    descricoes.forEach(function (d, i) {
+        $('.obra').append(
+            '<svg data-target="#descricao-' + i + '" class="descricao_botao" style="width:24px; height:24px; left:' + d.btn_left + "; top:" + d.btn_top +
+                `" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+            </svg>
+            <div id="descricao-` + i + '" class="descricao card" style="display: none; left:' + d.ctn_left + '; top: ' + d.ctn_top + `">
+                <div class="card-body">
+                    <h5 class="card-titulo fw-bold mb-1">
+                        `
+                        + d.titulo +
+                        `
+                    </h5>
+                    <button class="btn-close"></button>
+                    <p class="card-text text-start">
+                        `
+                        +
+                        d.texto
+                        +
+                        `
+                    </p>
+                </div>
+            </div>
+        `
+        )
+    });
+
 })
 
 $('.botoes').on('show.bs.collapse', '.collapse', function () {
