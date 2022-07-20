@@ -2,7 +2,7 @@ let obras = [
     {
         autor_foto: 'images/autor.png',
         autor_texto: 'Bevenuto Cellini nasceu em 1500 e foi um dos maiores escultores renascentistas, também reconhecido por seu talento como ourives, escritor e músico. Era um gênio nas artes, mas tinha um comportamento controverso, se envolvendo em vários escândalos sexuais e homicídios, tendo relatado os fatos em sua autobiografia, escrita por ele mesmo (CELLINI, 1902). Aos 29 anos de idade, ele contraiu sífilis e, ao entrar na segunda fase da doença, foi orientado a fazer uso de mercúrio, uma das opções de tratamento na época. Por temer os efeitos colaterais, ele recusou a medicação, dando preferência a aplicação de sanguessugas e loções. Ao evoluir para a fase terciária da sífilis, surgiu um rumor de que Celline estaria em estado terminal. Nesse período, envolveu-se em uma compra desvantajosa, e as pessoas com as quais ele negociou, tentaram envenená-lo, adicionando mercúrio a sua alimentação, porém, a dose administrada não foi suficiente para matá-lo, mas sim para curá-lo da sífilis (WOLF, 2005).',
-        obra_foto: 'images/obra1.jpg',
+        obra_foto: 'images/obra1.png',
         obra_texto: 'Em resposta a tentativa de assassinato contra a sua vida e a experiência vivenciada durante o período de adoecimento pela sífilis, Cellini esculpiu em bronze uma obra-prima, intitulada “Perseus com a Cabeça de Medusa”. Essa escultura além de representar a vitória de Celline sobre os seus inimigos ou sobre a enfermidade que o atormentou, também expressa a sua genialidade, por meio da capacidade representativa, da beleza estética exibida em cada detalhe e do poder de transmissão de seu próprio sentimento interior enquanto criador. Essa obra resistiu aos séculos e pode ser encontrada na Piazza della Signorina, em Florença, na Itália (WOLF, 2005).'
     },
     {
@@ -14,7 +14,7 @@ let obras = [
     {
         autor_foto: 'images/autor3.jpg',
         autor_texto: 'Ramon Casas i Carbó foi um pintor e caricaturista espanhol, nascido em 1886, e um dos expoentes do modernismo Catalão devido as suas contribuições na pintura e nas artes gráficas. Em 1900, Casas criou um cartaz abordando o tema da sífilis para “promover o Sanatório de Dr. Abreu, localizado em Bonanova, e que oferecia tratamento especializado para sífilis (HERNÁNDEZ, 2016).',
-        obra_foto: 'images/obra3.jpg',
+        obra_foto: 'images/obra3.png',
         obra_texto: 'Em 1900, Casas criou um cartaz abordando o tema da sífilis para “promover o Sanatório de Dr. Abreu, localizado em Bonanova, e que oferecia tratamento especializado para sífilis (HERNÁNDEZ, 2016).'
     },
     {
@@ -26,7 +26,7 @@ let obras = [
     {
         autor_foto: 'images/autor5.jpg',
         autor_texto: 'Guiseppe Danielle Sargent, mais conhecido como Joseph Sargent, nasceu em 22 de julho de 1925 em Jersey City, Nova Jersey, EUA. Foi um diretor americano, que atuou em televisão e cinema e dirigiu, entre outras obras os filmes Tubarão 4: A Vingança (1987), Pesadelos Diabólicos (1983) e Jornada nas Estrelas (1966).',
-        obra_foto: 'images/obra5.jpg',
+        obra_foto: 'images/obra5.png',
         obra_texto: '"Em 1996, Joseph Sargent dirigiu a obra ficcional “Miss Evers’ Boys”. Essa obra se baseia na história real sobre um projeto de pesquisa realizado nos Estados Unidos, em Alabama, na cidade rural de Tuskegee, subsidiado pelo departamento de saúde pública do governo americano, entre os anos de 1932 e 1972”, e denominado “Tuskegee Study of Untreated Syphilis in the Negro Male”. Muito do significado do filme se baseia na ausência de princípios éticos no projeto de pesquisa, que, deliberadamente, apenas dispensou placebo para os pacientes portadores de sífilis, e não solicitou que através de um consentimento voluntário, os sujeitos de pesquisa se dispusessem a participar do experimento, violando o Código de Nuremberg, de 1947, que determina que a participação de um ser humano em pesquisas médicas só poderá ocorrer mediante consentimento voluntário dos sujeitos da pesquisa (REVERBY; FOSTER, 2010).'
     }
 ]

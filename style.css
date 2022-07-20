@@ -41,11 +41,11 @@
     height: 250px;
 }
 
-.galeria .obra4 {
+.obra1{
     position: absolute;
-    top: 50.5%;
-    left: 8%;
-    width: 18%;
+    top: 55%;
+    left: 45%;
+    width: 7.5%;
 }
 
 .galeria .obra2 {
@@ -54,6 +54,38 @@
     left: 59%;
     width: 10%;
 }
+
+.obra3_parent{
+    position: absolute;
+    perspective: 1000px;
+    left: 90%;
+    top: 58%;
+}
+
+.obra3{
+    transform: rotateY(300deg);
+    width: 90%;
+}
+
+.galeria .obra4 {
+    position: absolute;
+    top: 50.5%;
+    left: 8%;
+    width: 18%;
+}
+
+.obra5_parent{
+    position: absolute;
+    perspective: 700px;
+    left: 72%;
+    top: 63%;
+}
+
+.obra5{
+    transform: rotateY(300deg);
+    width: 40%;
+}
+
 
 .botoes{
     position: absolute;
