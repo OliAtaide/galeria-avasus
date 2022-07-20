@@ -40,10 +40,28 @@ const header_titulo = `<strong>GALERIA DE ARTE INTERATIVA</strong>
                         <br>
                         <span>SÍFILIS: A “GRANDE IMITADORA” SOB O OLHAR DAS ARTES ATRAVÉS DOS SÉCULOS</span>`
 
-$('.obra').parent().hide();
+// $('.obra').parent().hide();
+
+$('.descricao').hide();
+
+$('.descricao_botao').click(function () {
+    $('.descricao').fadeOut(500);
+    var target = $(this).data('target')
+    console.log($(target));
+    $(target).fadeIn(500);
+})
+
+$('.btn-close').click(function () {
+    $('.descricao').fadeOut(500);
+})
 
 $('.img_btn').click(function () {
     var i = $(this).data('index');
+
+    if (i == 0) {
+        $('.img_view').addClass('estatua');
+    }
+
     var obra = obras[i];
     console.log($('#autorCollapse .card-body'));
     $('.img_view').attr('src', obra.obra_foto);
@@ -59,7 +77,7 @@ $('.img_btn').click(function () {
     $('.header h2').html(obra.obra_titulo);
 })
 
-$('.botoes').on('show.bs.collapse','.collapse', function() {
+$('.botoes').on('show.bs.collapse', '.collapse', function () {
     $('.collapse').collapse('hide');
 });
 
@@ -67,4 +85,5 @@ $('.btn_voltar').click(function () {
     $('.galeria').parent().show();
     $('.obra').parent().hide();
     $('.header h2').html(header_titulo);
+    $('.img_view').removeClass('estatua');
 })

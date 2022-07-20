@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     font-family: 'Inter', sans-serif;
 }
 
@@ -12,7 +12,8 @@
     color: white;
 }
 
-.galeria, .obra{
+.galeria,
+.obra {
     height: 0;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -36,21 +37,25 @@
     max-height: 40%;
 }
 
+.estatua {
+    max-height: 60% !important;
+}
+
 .img_btn {
     cursor: pointer;
 }
 
-.img_autor{
+.img_autor {
     border-radius: 20px;
     border: 2px solid #C58358;
 }
 
-.card-body{
+.botoes .card-body {
     text-align: justify;
     height: 250px;
 }
 
-.obra1{
+.obra1 {
     position: absolute;
     top: 55%;
     left: 45%;
@@ -64,14 +69,14 @@
     width: 10%;
 }
 
-.obra3_parent{
+.obra3_parent {
     position: absolute;
     perspective: 1000px;
     left: 90%;
     top: 58%;
 }
 
-.obra3{
+.obra3 {
     transform: rotateY(300deg);
     width: 90%;
 }
@@ -83,20 +88,19 @@
     width: 18%;
 }
 
-.obra5_parent{
+.obra5_parent {
     position: absolute;
     perspective: 700px;
     left: 72%;
     top: 63%;
 }
 
-.obra5{
+.obra5 {
     transform: rotateY(300deg);
     width: 40%;
 }
 
-
-.botoes{
+.botoes {
     position: absolute;
     width: 280px;
     top: 30%;
@@ -108,13 +112,54 @@
     border-radius: 4px !important;
 }
 
-.btn_voltar{
+.btn_voltar {
     background-color: #C58358 !important;
     border: 2px solid #654028 !important;
     border-radius: 12px !important;
 }
 
-a{
+a {
     color: black !important;
     text-decoration: none !important;
+}
+
+svg {
+    position: absolute;
+    cursor: pointer;
+}
+
+svg,
+.descricao {
+    z-index: 10;
+}
+
+path {
+    fill: #C58358;
+}
+
+.ponto {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.descricao {
+    border: 1px solid #000000 !important;
+    border-radius: 12px !important;
+    position: absolute !important;
+    width: 300px;
+}
+
+.card-body {
+    padding: 12px !important;
+}
+
+.card-text {
+    font-weight: 500;
+}
+
+.btn-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
 }
