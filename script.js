@@ -43,28 +43,79 @@ let obras = [
         autor_texto: 'François Marie Arouet nasceu na França, mais precisamente em Paris, no ano de 1694. Pertencente a uma família burguesa, adotou o pseudônimo de Voltaire, e foi um dos maiores expoentes do Iluminismo, junto com Russeau e Montesquieu. Voltaire foi um proeminente escritor e filósofo, além de dramaturgo, poeta, ensaísta e historiador, tendo estudado no Collège Louis-le Grand, em sua cidade Natal, onde iniciou o curso de Direito, porém não chegou a finalizar. Era conhecido por seu temperamento forte e suas ideias revolucionárias, tendo frequentado a “Société du Temple”, uma associação onde se reuniam de libertinos a livres pensadores (BARTHES, 1964).',
         obra_titulo: 'A sífilis, Voltaire e “O homem  dos  quarenta  escudos”',
         obra_foto: 'images/obra2.png',
-        obra_texto: 'Essa obra literária apresenta-se como uma crítica sociopolítica, na qual são abordados diversos temas polêmicos no século XVI, e de uma forma contundente e mordaz, ele passa a investir contra autoridades, sejam políticas ou religiosas, e contra os médicos (BARTHES, 1964). Este capítulo é totalmente dedicado à sífilis, e evidencia uma conversa entre o homem dos quarenta escudos e o cirurgião-mor. Eles discorrem sobre a forma como a sífilis chegou a Europa, como se disseminou, e atingiu de pobres a burgueses, cultos e incultos, nobres e clérigos, além de abordar aspectos relacionados à sintomatologia, e transmissão, e também explorar o fato de haver sido disseminada por meio dos soldados envolvidos com as guerras e a prostituição. <br>“O homem dos quarenta escudos morava num pequeno cantão, onde fazia uns cento e cinquenta anos que não acampavam soldados. Os costumes, naquele desconhecido rincão, eram mais puros do que o ar que o banha. Não se sabia que alhures pudesse o amor ser infeccionado de um veneno destrutivo, que as gerações fossem atacadas no seu germe, e que a natureza, contradizendo-se a si mesma, pudesse tornar a carícia horrível e o prazer medonho; entregavam-se ao amor com a segurança da inocência. Chegaram tropas, e tudo mudou. Dois tenentes, o esmoler do regimento, um cabo e um recruta proveniente do seminário bastaram para envenenar doze aldeias em menos de três meses. Duas primas do homem dos quarenta escudos viram-se cobertas de pústulas; caíram-lhes os lindos cabelos; a sua voz tornou-se rouca; as pálpebras de seus olhos fixos e apagados tomaram uma cor lívida, e não mais se fecharam para permitir repouso aos membros deslocados, que uma cárie secreta começava a roer como aos do árabe Jó, embora Jó jamais tivesse tido semelhante doença. (Voltaire, 1768, p.91)”'
+        obra_texto: 'Essa obra literária apresenta-se como uma crítica sociopolítica, na qual são abordados diversos temas polêmicos no século XVI, e de uma forma contundente e mordaz, ele passa a investir contra autoridades, sejam políticas ou religiosas, e contra os médicos (BARTHES, 1964). Este capítulo é totalmente dedicado à sífilis, e evidencia uma conversa entre o homem dos quarenta escudos e o cirurgião-mor. Eles discorrem sobre a forma como a sífilis chegou a Europa, como se disseminou, e atingiu de pobres a burgueses, cultos e incultos, nobres e clérigos, além de abordar aspectos relacionados à sintomatologia, e transmissão, e também explorar o fato de haver sido disseminada por meio dos soldados envolvidos com as guerras e a prostituição. <br>“O homem dos quarenta escudos morava num pequeno cantão, onde fazia uns cento e cinquenta anos que não acampavam soldados. Os costumes, naquele desconhecido rincão, eram mais puros do que o ar que o banha. Não se sabia que alhures pudesse o amor ser infeccionado de um veneno destrutivo, que as gerações fossem atacadas no seu germe, e que a natureza, contradizendo-se a si mesma, pudesse tornar a carícia horrível e o prazer medonho; entregavam-se ao amor com a segurança da inocência. Chegaram tropas, e tudo mudou. Dois tenentes, o esmoler do regimento, um cabo e um recruta proveniente do seminário bastaram para envenenar doze aldeias em menos de três meses. Duas primas do homem dos quarenta escudos viram-se cobertas de pústulas; caíram-lhes os lindos cabelos; a sua voz tornou-se rouca; as pálpebras de seus olhos fixos e apagados tomaram uma cor lívida, e não mais se fecharam para permitir repouso aos membros deslocados, que uma cárie secreta começava a roer como aos do árabe Jó, embora Jó jamais tivesse tido semelhante doença. (Voltaire, 1768, p.91)”',
+        descricoes: [
+            {
+                titulo: 'Ironia',
+                texto: 'Voltaire utiliza de ironia durante todo o decorrer do capítulo, e, ao final, mais uma vez coloca em evidência o fato de uma doença sexualmente transmissível, e relacionada com a prostituição se proliferar em uma Europa cristã, a ponto de provocar uma epidemia.',
+                btn_left: '36%', btn_top: '37.5%',
+                ctn_left: '25%', ctn_top: '8%'
+            },
+        ]
     },
     {
         autor_foto: 'images/autor3.jpg',
         autor_texto: 'Ramon Casas i Carbó foi um pintor e caricaturista espanhol, nascido em 1886, e um dos expoentes do modernismo Catalão devido as suas contribuições na pintura e nas artes gráficas. Em 1900, Casas criou um cartaz abordando o tema da sífilis para “promover o Sanatório de Dr. Abreu, localizado em Bonanova, e que oferecia tratamento especializado para sífilis (HERNÁNDEZ, 2016).',
         obra_titulo: ' A sífilis, Ramon Casas e o cartaz do sanatório para sifilíticos',
         obra_foto: 'images/obra3.png',
-        obra_texto: 'Em 1900, Casas criou um cartaz abordando o tema da sífilis para “promover o Sanatório de Dr. Abreu, localizado em Bonanova, e que oferecia tratamento especializado para sífilis (HERNÁNDEZ, 2016).'
+        obra_texto: 'Em 1900, Casas criou um cartaz abordando o tema da sífilis para “promover o Sanatório de Dr. Abreu, localizado em Bonanova, e que oferecia tratamento especializado para sífilis (HERNÁNDEZ, 2016).',
+        descricoes: [
+            {
+                titulo: 'Sífilis',
+                texto: 'O cartaz se divide em três áreas distintas. Na parte superior, o nome sífilis aparece em destaque e o autor correlaciona o S inicial e o final da palavra ao formato de uma serpente. Com isso, busca explicitar o quanto virulenta, agressiva e perigosa a enfermidade pode ser.',
+                btn_left: '28%', btn_top: '30%',
+                ctn_left: '25%', ctn_top: '-2%'
+            },
+            {
+                titulo: 'Mulher',
+                texto: 'Ao centro, vê-se uma mulher pálida, emagrecida, coberta apenas por uma manta, deixa à vista um braço com aparência de baixo tônus muscular, ela se apresenta de forma insinuante, leva em sua mão, à frente do corpo, uma flor, e segura na mão oculta atrás do corpo, uma serpente, como que representando a sedução e o prazer, porém ao mesmo tempo, a iminência do perigo, da enfermidade e da morte.',
+                btn_left: '32.5%', btn_top: '42.5%',
+                ctn_left: '9%', ctn_top: '32.5%'
+            },
+            {
+                titulo: 'Curación absoluta y radical',
+                texto: 'Na área inferior, Casas dá ênfase às palavras “Curación absoluta y radical”, o que era bastante representativo, tendo em vista os números altos de morbidade e mortalidade da doença, e a indisponibilidade de tratamento verdadeiramente eficaz, sendo o mercúrio o único meio disponível no arsenal médico. Dessa forma, as palavras utilizadas tinham um extremo valor apelativo, pois representavam a esperança diante de um quadro tão difícil e de prognóstico incerto.',
+                btn_left: '36%', btn_top: '60%',
+                ctn_left: '12.5%', ctn_top: '45%'
+            },
+            {
+                titulo: 'Área Inferior',
+                texto: 'Ainda nessa área inferior, podemos observar a mesma estrutura utilizada na parte de cima do cartaz, na qual Casas faz uso dos vários esses em formato de serpente, como que a concordar com a afirmação de Diaz de Ysla, que em 1539, empregou o nome mal serpentino e justifica: “...eu não posso pensar em outra coisa com a qual ela poderia ser naturalmente comparada do que com a serpente porque do mesmo modo que a serpente é um animal feio, repugnante e assustador, a doença é feia, repugnante e assustadora” (GERALDES NETO et al., 2009).',
+                btn_left: '37.5%', btn_top: '64%',
+                ctn_left: '14%', ctn_top: '64%'
+            },
+        ]
     },
     {
         autor_foto: 'images/autor4.jpg',
         autor_texto: 'Nasceu na Noruega, em Oslo, no final do século XIX, e é considerado o precursor do expressionismo alemão, um movimento de contraponto às normas burguesas, que propunha um novo padrão estético, no qual a realidade se apresentava de uma forma trágica e crítica em relação à ordem social dominante por meio da representação de imagens distorcidas, deformadas carregadas de sentimentos de angústia, tristeza e medo. Uma de suas obras “O grito” é considerada como a maior representação do expressionismo. Munch perdeu a mãe e uma irmã, ainda jovem, em seguida, sua outra irmã foi diagnosticada com problemas mentais, seu avô foi diagnosticado com sífilis, e o próprio Munch foi uma criança enfermiça e chegou a procurar tratamento psiquiátrico quando adulto, por apresentar um quadro de perturbação e conflitos, além de diagnóstico de ansiedade, depressão e transtorno bipolar (AZEEM, 2015).',
         obra_titulo: 'A sífilis, Edvard Munch e a “Herança” ',
         obra_foto: 'images/obra4.jpg',
-        obra_texto: 'Vamos conhecer um quadro “que foi exposto no “Salão dos independentes”, em Paris no ano de 1903, intitulado inicialmente como “Mãe” e, depois, renomeado como “Herança”. Nessa obra Munch retrata uma mãe sifilítica e seu filho enfermo com sífilis congênita. A cena, desesperadora e triste, nos remete a um aspecto importante, que é a forma distinta como Munch retrata mãe e filho, e a exposição dos sinais clínicos, resultado de um provável estudo de Munch acerca da sífilis congênita, durante visita ao Hôpital Saint-Louis na cidade de Paris, onde conheceu uma coleção em cera usada para o estudo de anatomia, incluindo uma peça de um recém-nascido com sífilis congênita, e na mesma ocasião, viu uma cena real, na qual uma mãe chorava ao lado de seu filho com sífilis (PERCIACCANTE; CORALLI, 2018). O quadro sofreu várias críticas, principalmente pelo fato de retratar uma infecção sexualmente transmissível, tabu na época. O quadro foi pintado, em torno de 1887 a 1889, e foi exposto em 1903.'
+        obra_texto: 'Vamos conhecer um quadro “que foi exposto no “Salão dos independentes”, em Paris no ano de 1903, intitulado inicialmente como “Mãe” e, depois, renomeado como “Herança”. Nessa obra Munch retrata uma mãe sifilítica e seu filho enfermo com sífilis congênita. A cena, desesperadora e triste, nos remete a um aspecto importante, que é a forma distinta como Munch retrata mãe e filho, e a exposição dos sinais clínicos, resultado de um provável estudo de Munch acerca da sífilis congênita, durante visita ao Hôpital Saint-Louis na cidade de Paris, onde conheceu uma coleção em cera usada para o estudo de anatomia, incluindo uma peça de um recém-nascido com sífilis congênita, e na mesma ocasião, viu uma cena real, na qual uma mãe chorava ao lado de seu filho com sífilis (PERCIACCANTE; CORALLI, 2018). O quadro sofreu várias críticas, principalmente pelo fato de retratar uma infecção sexualmente transmissível, tabu na época. O quadro foi pintado, em torno de 1887 a 1889, e foi exposto em 1903.',
+        descricoes: [
+            
+        ]
     },
     {
         autor_foto: 'images/autor5.jpg',
         autor_texto: 'Guiseppe Danielle Sargent, mais conhecido como Joseph Sargent, nasceu em 22 de julho de 1925 em Jersey City, Nova Jersey, EUA. Foi um diretor americano, que atuou em televisão e cinema e dirigiu, entre outras obras os filmes Tubarão 4: A Vingança (1987), Pesadelos Diabólicos (1983) e Jornada nas Estrelas (1966).',
         obra_titulo: 'A sífilis, Joseph Sargent e Miss Evers’ Boys ',
         obra_foto: 'images/obra5.png',
-        obra_texto: '"Em 1996, Joseph Sargent dirigiu a obra ficcional “Miss Evers’ Boys”. Essa obra se baseia na história real sobre um projeto de pesquisa realizado nos Estados Unidos, em Alabama, na cidade rural de Tuskegee, subsidiado pelo departamento de saúde pública do governo americano, entre os anos de 1932 e 1972”, e denominado “Tuskegee Study of Untreated Syphilis in the Negro Male”. Muito do significado do filme se baseia na ausência de princípios éticos no projeto de pesquisa, que, deliberadamente, apenas dispensou placebo para os pacientes portadores de sífilis, e não solicitou que através de um consentimento voluntário, os sujeitos de pesquisa se dispusessem a participar do experimento, violando o Código de Nuremberg, de 1947, que determina que a participação de um ser humano em pesquisas médicas só poderá ocorrer mediante consentimento voluntário dos sujeitos da pesquisa (REVERBY; FOSTER, 2010).'
+        obra_texto: '"Em 1996, Joseph Sargent dirigiu a obra ficcional “Miss Evers’ Boys”. Essa obra se baseia na história real sobre um projeto de pesquisa realizado nos Estados Unidos, em Alabama, na cidade rural de Tuskegee, subsidiado pelo departamento de saúde pública do governo americano, entre os anos de 1932 e 1972”, e denominado “Tuskegee Study of Untreated Syphilis in the Negro Male”. Muito do significado do filme se baseia na ausência de princípios éticos no projeto de pesquisa, que, deliberadamente, apenas dispensou placebo para os pacientes portadores de sífilis, e não solicitou que através de um consentimento voluntário, os sujeitos de pesquisa se dispusessem a participar do experimento, violando o Código de Nuremberg, de 1947, que determina que a participação de um ser humano em pesquisas médicas só poderá ocorrer mediante consentimento voluntário dos sujeitos da pesquisa (REVERBY; FOSTER, 2010).',
+        descricoes: [
+            {
+                titulo: 'Filme',
+                texto: 'O filme não tem a intenção de ser um documentário e utiliza de licença poética, na sua narrativa. É destacado o papel da enfermeira Eunice Evers, que na história real se chamava Eunice Verdell Rivers Laurie, que foi selecionada para trabalhar na pesquisa por sua influência sobre a comunidade negra, e por ser de origem afro-americana. Seu conflito era a obediência às ordens médicas ou não causar danos aos seus pacientes. O dilema de Miss Evers se acentuava “a medida em que os sinais e sintomas dos pacientes se agravavam, trazendo incapacitação e até morte.”',
+                btn_left: '42.5%', btn_top: '52.5%',
+                ctn_left: '25%', ctn_top: '-5%'
+            },
+            {
+                titulo: 'Filme',
+                texto: 'Durante quarenta décadas, essa equipe negou informações e tratamento, e permitiu, que os pacientes sofressem sequelas como, alterações ósseas, cardíacas e neurológicas, cegueira e também óbitos. “O filme dirigido por Joseph Sargent oferece a possibilidade de discussão acerca de temas difíceis e dolorosos para a sociedade da época, como a discriminação racial, poder dominante da equipe de saúde sobre o paciente, papel da mulher enquanto profissional e ser social, ausência de uma política pública que reduza as desigualdades,” dentre outros aspectos morais e éticos.',
+                btn_left: '28%', btn_top: '62.5%',
+                ctn_left: '5%', ctn_top: '35%'
+            },
+        ]
     }
 ]
 
@@ -72,7 +123,7 @@ const header_titulo = `<strong>GALERIA DE ARTE INTERATIVA</strong>
                         <br>
                         <span>SÍFILIS: A “GRANDE IMITADORA” SOB O OLHAR DAS ARTES ATRAVÉS DOS SÉCULOS</span>`
 
-// $('.obra').parent().hide();
+$('.obra').parent().hide();
 
 
 $(document).on('click', '.descricao_botao', function () {
@@ -147,4 +198,7 @@ $('.btn_voltar').click(function () {
     $('.obra').parent().hide();
     $('.header h2').html(header_titulo);
     $('.img_view').removeClass('estatua');
+
+    $('.descricao').remove();
+    $('.descricao_botao').remove();
 })
