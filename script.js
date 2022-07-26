@@ -144,14 +144,17 @@ $('.img_btn').click(function () {
         $('.img_view').addClass('estatua');
     }
 
+    $('#autorCollapse').collapse('show');
+    $('#obraCollapse').collapse('hide');
+
     var obra = obras[i];
     $('.img_view').attr('src', obra.obra_foto);
-    $('#autorCollapse .card-body').html(
-        "<div class='d-flex justify-content-center mb-3'><img class='img_autor img-fluid w-50' src='" + obra.autor_foto + "'></div><p>" +
-        obra.autor_texto + '</p>'
+    $('#autorCollapse').html(
+        "<div class='card-body overflow-auto'><div class='d-flex justify-content-center mb-3'><img class='img_autor img-fluid w-50' src='" + obra.autor_foto + "'></div><p>" +
+        obra.autor_texto + '</p></div>'
     );
-    $('#obraCollapse .card-body').html(
-        "<p>" + obra.obra_texto + '</p>'
+    $('#obraCollapse').html(
+        "<div class='card-body overflow-auto'><p>" + obra.obra_texto + '</p></div>'
     );
     $('.galeria').parent().hide();
     $('.obra').parent().show();

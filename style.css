@@ -102,7 +102,7 @@
 
 .botoes {
     position: absolute;
-    width: 280px;
+    width: 22.5%;
     top: 30%;
     right: 26%
 }
@@ -163,8 +163,3 @@ path {
     top: 12px;
     right: 12px;
 }
-
-.descricao_botao{
-    width: 24px;
-}
-
