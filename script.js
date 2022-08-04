@@ -8,7 +8,7 @@ let obras = [
         descricoes: [
             {
                 titulo: 'Rosto',
-                texto: 'Se observarmos, Perseus está olhando para baixo, como que para interagir com os seus espectadores, do alto de seu pedestal, também esculpido por ele.',
+                texto: 'Se observarmos, Perseus está olhando para baixo, como que para interagir com os seus espectadores, do alto de seu pedestal, também esculpido por Cellini.',
                 btn_left: '32.5%', btn_top: '32.5%',
                 ctn_left: '14%', ctn_top: '8%'
             },
@@ -32,7 +32,7 @@ let obras = [
             },
             {
                 titulo: 'Pedestal',
-                texto: 'No pedestal, Cellini esculpiu quatro deuses gregos: Zeus, Afrodite, Hermes, Palas e Athena. Mais uma simbologia é exibida na obra, pois o deus Hermes e a deusa Afrodite, são também conhecidos como Vênus e Mercúrio. Eles se encontram em justaposição no pedestal, como para simbolizar a causa e a cura da sífilis. Vênus é a deusa do amor e da beleza, e que deriva do latim venereus (relativo à Vênus), de onde deriva o termo doença venérea, que se atribui a qualquer infecção adquirida por relação sexual. Mercúrio, é o mensageiro dos deuses, e mercúrio era também, o medicamento utilizado para o tratamento da sífilis e que trouxe a cura para Cellini (WOLF, 2005).',
+                texto: 'No pedestal, Cellini esculpiu quatro deuses gregos: Zeus, Afrodite, Hermes, Palas Athena. Mais uma simbologia é exibida na obra, pois o deus Hermes e a deusa Afrodite, são também conhecidos como Vênus e Mercúrio. Eles se encontram em justaposição no pedestal, como para simbolizar a causa e a cura da sífilis. Vênus é a deusa do amor e da beleza, e que deriva do latim venereus (relativo à Vênus), de onde deriva o termo doença venérea, que se atribui a qualquer infecção adquirida por relação sexual. Mercúrio, é o mensageiro dos deuses, e mercúrio era também, o medicamento utilizado para o tratamento da sífilis e que trouxe a cura para Cellini (WOLF, 2005).',
                 btn_left: '30%', btn_top: '85%',
                 ctn_left: '7%', ctn_top: '50%'
             }
@@ -40,16 +40,16 @@ let obras = [
     },
     {
         autor_foto: 'images/autor2.jpg',
-        autor_texto: 'François Marie Arouet nasceu na França, mais precisamente em Paris, no ano de 1694. Pertencente a uma família burguesa, adotou o pseudônimo de Voltaire, e foi um dos maiores expoentes do Iluminismo, junto com Russeau e Montesquieu. Voltaire foi um proeminente escritor e filósofo, além de dramaturgo, poeta, ensaísta e historiador, tendo estudado no Collège Louis-le Grand, em sua cidade Natal, onde iniciou o curso de Direito, porém não chegou a finalizar. Era conhecido por seu temperamento forte e suas ideias revolucionárias, tendo frequentado a “Société du Temple”, uma associação onde se reuniam de libertinos a livres pensadores (BARTHES, 1964).',
+        autor_texto: 'François Marie Arouet nasceu na França, mais precisamente em Paris, no ano de 1694. Pertencente a uma família burguesa, adotou o pseudônimo de Voltaire, e foi um dos maiores expoentes do Iluminismo, junto com Russeau e Montesquieu. Voltaire foi um proeminente escritor e filósofo, além de dramaturgo, poeta, ensaísta e historiador, tendo estudado no Collège Louis-le Grand, em sua cidade Natal, onde iniciou o curso de Direito, porém não chegou a finalizar. Era conhecido por seu temperamento forte e suas ideias revolucionárias, tendo frequentado a “Société du Temple”, uma associação onde se reuniam de libertinos a livres pensadores (BARTHES, 1964).<br>Voltaire utiliza de ironia durante todo o decorrer do capítulo, e, ao final, mais uma vez coloca em evidência o fato de uma doença sexualmente transmissível, e relacionada com a prostituição se proliferar em uma Europa cristã, a ponto de provocar uma epidemia.',
         obra_titulo: 'A sífilis, Voltaire e “O homem  dos  quarenta  escudos”',
         obra_foto: 'images/obra2.png',
-        obra_texto: 'Essa obra literária apresenta-se como uma crítica sociopolítica, na qual são abordados diversos temas polêmicos no século XVI, e de uma forma contundente e mordaz, ele passa a investir contra autoridades, sejam políticas ou religiosas, e contra os médicos (BARTHES, 1964). Este capítulo é totalmente dedicado à sífilis, e evidencia uma conversa entre o homem dos quarenta escudos e o cirurgião-mor. Eles discorrem sobre a forma como a sífilis chegou a Europa, como se disseminou, e atingiu de pobres a burgueses, cultos e incultos, nobres e clérigos, além de abordar aspectos relacionados à sintomatologia, e transmissão, e também explorar o fato de haver sido disseminada por meio dos soldados envolvidos com as guerras e a prostituição. <br>“O homem dos quarenta escudos morava num pequeno cantão, onde fazia uns cento e cinquenta anos que não acampavam soldados. Os costumes, naquele desconhecido rincão, eram mais puros do que o ar que o banha. Não se sabia que alhures pudesse o amor ser infeccionado de um veneno destrutivo, que as gerações fossem atacadas no seu germe, e que a natureza, contradizendo-se a si mesma, pudesse tornar a carícia horrível e o prazer medonho; entregavam-se ao amor com a segurança da inocência. Chegaram tropas, e tudo mudou. Dois tenentes, o esmoler do regimento, um cabo e um recruta proveniente do seminário bastaram para envenenar doze aldeias em menos de três meses. Duas primas do homem dos quarenta escudos viram-se cobertas de pústulas; caíram-lhes os lindos cabelos; a sua voz tornou-se rouca; as pálpebras de seus olhos fixos e apagados tomaram uma cor lívida, e não mais se fecharam para permitir repouso aos membros deslocados, que uma cárie secreta começava a roer como aos do árabe Jó, embora Jó jamais tivesse tido semelhante doença. (Voltaire, 1768, p.91)”',
+        obra_texto: 'Essa obra literária apresenta-se como uma crítica sociopolítica, na qual são abordados diversos temas polêmicos no século XVI, e de uma forma contundente e mordaz, ele passa a investir contra autoridades, sejam políticas ou religiosas, e contra os médicos (BARTHES, 1964). Este capítulo é totalmente dedicado à sífilis, e evidencia uma conversa entre o homem dos quarenta escudos e o cirurgião-mor. Eles discorrem sobre a forma como a sífilis chegou a Europa, como se disseminou, e atingiu de pobres a burgueses, cultos e incultos, nobres e clérigos, além de abordar aspectos relacionados à sintomatologia, e transmissão, e também explorar o fato de haver sido disseminada por meio dos soldados envolvidos com as guerras e a prostituição. <br>',
         descricoes: [
             {
-                titulo: 'Ironia',
-                texto: 'Voltaire utiliza de ironia durante todo o decorrer do capítulo, e, ao final, mais uma vez coloca em evidência o fato de uma doença sexualmente transmissível, e relacionada com a prostituição se proliferar em uma Europa cristã, a ponto de provocar uma epidemia.',
+                titulo: '',
+                texto: '“O homem dos quarenta escudos morava num pequeno cantão, onde fazia uns cento e cinquenta anos que não acampavam soldados. Os costumes, naquele desconhecido rincão, eram mais puros do que o ar que o banha. Não se sabia que alhures pudesse o amor ser infeccionado de um veneno destrutivo, que as gerações fossem atacadas no seu germe, e que a natureza, contradizendo-se a si mesma, pudesse tornar a carícia horrível e o prazer medonho; entregavam-se ao amor com a segurança da inocência. Chegaram tropas, e tudo mudou. Dois tenentes, o esmoler do regimento, um cabo e um recruta proveniente do seminário bastaram para envenenar doze aldeias em menos de três meses. Duas primas do homem dos quarenta escudos viram-se cobertas de pústulas; caíram-lhes os lindos cabelos; a sua voz tornou-se rouca; as pálpebras de seus olhos fixos e apagados tomaram uma cor lívida, e não mais se fecharam para permitir repouso aos membros deslocados, que uma cárie secreta começava a roer como aos do árabe Jó, embora Jó jamais tivesse tido semelhante doença.” (Voltaire, 1768, p.91)',
                 btn_left: '36%', btn_top: '37.5%',
-                ctn_left: '25%', ctn_top: '8%'
+                ctn_left: '5%', ctn_top: '8%'
             },
         ]
     },
@@ -93,6 +93,18 @@ let obras = [
         obra_foto: 'images/obra4.jpg',
         obra_texto: 'Vamos conhecer um quadro “que foi exposto no “Salão dos independentes”, em Paris no ano de 1903, intitulado inicialmente como “Mãe” e, depois, renomeado como “Herança”. Nessa obra Munch retrata uma mãe sifilítica e seu filho enfermo com sífilis congênita. A cena, desesperadora e triste, nos remete a um aspecto importante, que é a forma distinta como Munch retrata mãe e filho, e a exposição dos sinais clínicos, resultado de um provável estudo de Munch acerca da sífilis congênita, durante visita ao Hôpital Saint-Louis na cidade de Paris, onde conheceu uma coleção em cera usada para o estudo de anatomia, incluindo uma peça de um recém-nascido com sífilis congênita, e na mesma ocasião, viu uma cena real, na qual uma mãe chorava ao lado de seu filho com sífilis (PERCIACCANTE; CORALLI, 2018). O quadro sofreu várias críticas, principalmente pelo fato de retratar uma infecção sexualmente transmissível, tabu na época. O quadro foi pintado, em torno de 1887 a 1889, e foi exposto em 1903.',
         descricoes: [
+            {
+                titulo: 'Recém-Nascido',
+                texto: 'O recém-nascido, desamparado e frágil, é o centro, o cerne de todo o quadro.  Foi pintado em cores claras e brilhantes, como se estivesse sob um holofote, de forma a expor toda miséria humana concentrada em uma só criatura, produto de uma sociedade hipócrita. Munch denuncia, por meio da obra, o infortúnio dos recém-nascidos expostos à sífilis congênita. A criança, fruto de uma relação sexual que culminou em uma enfermidade, é apresentada como se acabasse de vir ao mundo, totalmente desnuda, como a querer chocar a sociedade e lhe impingir esta culpa. Munch caracteriza a criança com sinais de sífilis congênita, retratando-o magro, pálido, com lesões eritematosas, secreção nasal, e nariz em sela. Toda a carga emocional negativa desta obra tem sido revivida dia após dia, durante esses séculos, desde que se teve conhecimento acerca da doença.',
+                btn_left: '36%', btn_top: '45%',
+                ctn_left: '10%', ctn_top: '48%'
+            },
+            {
+                titulo: 'Obra',
+                texto: 'A mãe e o ambiente são pintados em cores escuras, sóbrias que sugestionam uma atmosfera de dor e sofrimento. A cena se passa em uma sala de espera, onde a mãe sifilítica, angustiada, mortificada, chora sobre o fruto de um provável pecado de prostituição ou infidelidade, enquanto aguarda pelo veredito em relação ao seu filho. A mãe, bem-vestida para os padrões da época, tem o filho em seu colo, mas não chega a tocá-lo. Uma de suas mãos, segura um lenço delicado e fino próximo ao rosto como se estivesse a chorar, seu outro braço pende ao lado do corpo, indicando cansaço e desesperança. Ela é a própria imagem da tristeza, desespero e culpa.',
+                btn_left: '36%', btn_top: '30%',
+                ctn_left: '10%', ctn_top: '9%'
+            },
             
         ]
     },
