@@ -73,7 +73,7 @@ let obras = [
                 ctn_left: '9%', ctn_top: '32.5%'
             },
             {
-                titulo: 'Curación absoluta y radical',
+                titulo: 'Curación absoluta<br> y radical',
                 texto: 'Na área inferior, Casas dá ênfase às palavras “Curación absoluta y radical”, o que era bastante representativo, tendo em vista os números altos de morbidade e mortalidade da doença, e a indisponibilidade de tratamento verdadeiramente eficaz, sendo o mercúrio o único meio disponível no arsenal médico. Dessa forma, as palavras utilizadas tinham um extremo valor apelativo, pois representavam a esperança diante de um quadro tão difícil e de prognóstico incerto.',
                 btn_left: '36%', btn_top: '60%',
                 ctn_left: '12.5%', ctn_top: '45%'
